@@ -53,8 +53,8 @@ end
 -- Move
 function moveHorse_RotateLeft()
 addEventHandler("onClientRender", root, moveHorse_RotateLeft)
-triggerServerEvent ( "rotateServerPlus", localPlayer, localPlayer, forgatasLepteke )
-triggerServerEvent ( "rotateServerPlus", localPlayer, "lo", forgatasLepteke )
+triggerServerEvent ( "rotateServerPlus", localPlayer, localPlayer, rotation )
+triggerServerEvent ( "rotateServerPlus", localPlayer, "lo", rotation )
 end
 
 function moveHorse_RotateLeftEnd()
@@ -64,8 +64,8 @@ end
 function moveHorse_RotateRight()
 addEventHandler("onClientRender", root, moveHorse_RotateRight)
 
-triggerServerEvent ( "rotateServerMinus", localPlayer, localPlayer, forgatasLepteke )
-triggerServerEvent ( "rotateServerMinus", localPlayer, "lo", forgatasLepteke )
+triggerServerEvent ( "rotateServerMinus", localPlayer, localPlayer, rotation )
+triggerServerEvent ( "rotateServerMinus", localPlayer, "lo", rotation )
 end
 
 function moveHorse_RotateRightEnd()
