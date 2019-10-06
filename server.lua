@@ -1,6 +1,6 @@
 -- created by Zsemle /https://github.com/preilakos/
 -- create horse
--- (playerData player, command command, string x, string y, string z)
+-- syntax (playerData player, command command, string x, string y, string z)
 function horseCreator(p, c, x, y, z)
 setPedAnimation(alapLo, "HORSE_ANIMATION", "HORSE_IDLE_1")
 end
