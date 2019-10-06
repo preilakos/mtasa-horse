@@ -23,7 +23,6 @@ function rotateServerPlus(elementg, rot)
 if elementg == "lo" then
 local rotX, rotY, rotZ = getElementRotation(alapLo)
 setElementRotation(alapLo,rotX,rotY,rotZ+rot)
-triggerClientEvent ( getRootElement(), "playWalkSound", alapLo, x, y, z, alapLo)
 else
 local rotX, rotY, rotZ = getElementRotation(alapLo)
 setElementRotation(elementg,rotX,rotY,rotZ+rot)
@@ -36,7 +35,6 @@ function rotateServerMinus(elementg, rot)
 if elementg == "lo" then
 local rotX, rotY, rotZ = getElementRotation(alapLo)
 setElementRotation(alapLo,rotX,rotY,rotZ-rot)
-triggerClientEvent ( getRootElement(), "playWalkSound", alapLo, x, y, z, alapLo)
 else
 local rotX, rotY, rotZ = getElementRotation(alapLo)
 setElementRotation(elementg,rotX,rotY,rotZ-rot)
