@@ -2,6 +2,7 @@
 -- create horse
 -- syntax (playerData player, command command, string x, string y, string z)
 function horseCreator(p, c, x, y, z)
+alapLo = createPed ( 30, x, y, z )
 setPedAnimation(alapLo, "HORSE_ANIMATION", "HORSE_IDLE_1")
 end
 
