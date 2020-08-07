@@ -1,5 +1,8 @@
-# mtasa-horse
-## I decided to publish my horse script, which was under development, but i haven't got time to finish it. It needs some work with it. 
+# MTA:SA - Horseriding
+**Unfinished** Horseriding API for MTA:SA
+Original CLEO script created by **Gadina, Metal, Viger & 3Doomer** for GTA:SA
 
-If you want to donate me a few dollars you can do it on the following link: https://www.paypal.me/preilakos?locale.x=en_US
-Thank you!
+### Contains
+  - Horse model
+  - Horse movement bindings
+  - All animations for the horse
