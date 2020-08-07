@@ -1,5 +1,5 @@
 # MTA:SA - Horseriding
-**Unfinished** Horseriding API for MTA:SA
+**Unfinished** Horseriding API for MTA:SA.
 Original CLEO script created by **Gadina, Metal, Viger & 3Doomer** for GTA:SA
 
 ### Contains
